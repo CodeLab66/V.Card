@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentine Card</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        
-    </style>
 </head>
 
 <body>
@@ -32,18 +29,6 @@
         <div class="shadow"></div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.container').mouseenter(function () {
-                $('.card').stop().animate({
-                    top: '-90px'
-                }, 'slow');
-            }).mouseleave(function () {
-                $('.card').stop().animate({
-                    top: 0
-                }, 'slow');
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
